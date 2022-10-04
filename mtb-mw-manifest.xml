@@ -14,4 +14,53 @@
       </version>
     </versions>
   </middleware>
+
+  <middleware>
+    <name>TDC7200 ToF Sensor</name>
+    <id>TDC7200</id>
+    <uri>https://github.com/juanespj/PSOC6_TDC7200</uri>
+    <desc>TDC7200 ToF Sensor library for Cypress PSoC6</desc>
+    <category>JE libs</category>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>main</num>
+        <commit>main</commit>
+        <desc>main</desc>
+      </version>
+    </versions>
+  </middleware>
+
+  <middleware>
+    <name>M24CXX flash</name>
+    <id>M24CXX</id>
+    <uri>  https://github.com/juanespj/PSOC6-M24CXX</uri>
+    <desc>ST Flash memory TM24M01-R M24M01-DF library for Cypress PSoC6</desc>
+    <category>JE libs</category>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>main</num>
+        <commit>main</commit>
+        <desc>main</desc>
+      </version>
+    </versions>
+  </middleware>
+
+  <middleware>
+    <name>TCA GPIO</name>
+    <id>TCA</id>
+    <uri>  https://github.com/juanespj/PSOC6_TCA</uri>
+    <desc>TCA GPIO expander library for Cypress PSoC6</desc>
+    <category>JE libs</category>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>main</num>
+        <commit>main</commit>
+        <desc>main</desc>
+      </version>
+    </versions>
+  </middleware>
+
 </middleware>
