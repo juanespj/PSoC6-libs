@@ -3,22 +3,9 @@
   <board-manifest-list></board-manifest-list>
   <middleware-manifest-list>
     <middleware-manifest >
-      <middleware>
-        <name>MCP9600</name>
-        <id>MCP9600</id>
-        <uri>https://github.com/juanespj/PSOC6_MCP9600</uri>
-        <desc>MCP9600 library for Cypress PSoC6</desc>
-        <category>JE libs</category>
-        <req_capabilities>psoc6</req_capabilities>
-        <versions>
-          <version flow_version="1.0,2.0">
-            <num>main</num>
-            <commit>main</commit>
-            <desc>main</desc>
-          </version>
-        </versions>
-      </middleware>
-
+      <middleware-manifest>
+        <uri>https://github.com/juanespj/PSoC6-libs/raw/main/mtb-mw-manifest.xml</uri>
+      </middleware-manifest>
     </middleware-manifest>
   </middleware-manifest-list>
 
