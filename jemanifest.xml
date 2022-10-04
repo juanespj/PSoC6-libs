@@ -12,26 +12,24 @@
       <middleware>
 
         <middleware>
-          <name>ntshell</name>
-          <id>ntshell</id>
-          <uri>https://github.com/iotexpert/middleware-ntshell</uri>
-          <desc>NT Shell library for Cypress PSoC6 Anycloud</desc>
-          <category>IoT Expert</category>
+          <name>MCP9600</name>
+          <id>MCP9600</id>
+          <uri>https://github.com/juanespj/PSOC6_MCP9600</uri>
+          <desc>MCP9600 library for Cypress PSoC6</desc>
+          <category>JE libs</category>
           <req_capabilities>psoc6</req_capabilities>
-          <versions>
-            <version flow_version="1.0">
-              <num>Latest 1.X release</num>
-              <commit>latest-v1.X</commit>
-              <desc>Latest 1.X release</desc>
-            </version>
+          <versions>        
             <version flow_version="1.0,2.0">
-              <num>Latest 2.X release</num>
-              <commit>latest-v2.X</commit>
-              <desc>Latest 2.X release</desc>
+              <num>main</num>
+              <commit>main</commit>
+              <desc>main</desc>
             </version>
           </versions>
         </middleware>
+
       </middleware>
     </middleware-manifest>
   </middleware-manifest-list>
+
+
 </super-manifest>
