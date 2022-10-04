@@ -3,9 +3,7 @@
   <board-manifest-list></board-manifest-list>
   <middleware-manifest-list>
     <middleware-manifest >
-      <middleware-manifest>
         <uri>https://github.com/juanespj/PSoC6-libs/raw/main/mtb-mw-manifest.xml</uri>
-      </middleware-manifest>
     </middleware-manifest>
   </middleware-manifest-list>
 
