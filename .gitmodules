@@ -1,6 +1,3 @@
-[submodule "TDC"]
-	path = TDC
-	url = https://github.com/juanespj/PSoC6-libs.git
 [submodule "mcp9600"]
 	path = mcp9600
 	url = https://github.com/juanespj/PSOC6_MCP9600
